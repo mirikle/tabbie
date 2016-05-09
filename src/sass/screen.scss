@@ -159,12 +159,53 @@ html /deep/ {
     }
 }
 
+
+html /deep/ h1 {
+  font-size: 14px;
+}
+
+html /deep/ .paper-shadow-bottom-z-1 {
+  box-shadow: 0 0 2px #eee;
+}
+
+html /deep/ .paper-shadow-top-z-2 {
+  box-shadow: 0 0 2px #eee;
+}
+
+html /deep/ .paper-shadow-bottom-z-2 {
+  box-shadow: 0 0 2px #eee;
+}
+
+html /deep/ .paper-shadow-top-z-3 {
+  box-shadow: 0 0 2px #eee;
+}
+
+html /deep/ .paper-shadow-bottom-z-3 {
+  box-shadow: 0 0 2px #eee;
+}
+
+html /deep/ .paper-shadow-top-z-4 {
+  box-shadow: 0 0 2px #eee;
+}
+
+html /deep/ .paper-shadow-bottom-z-4 {
+  box-shadow: 0 0 2px #eee;
+}
+
+html /deep/ .paper-shadow-top-z-5 {
+  box-shadow: 0 0 2px #eee;
+}
+
+html /deep/ .paper-shadow-bottom-z-5 {
+  box-shadow: 0 0 2px #eee;
+}
+
 .ghost {
     background:#eee;
 }
 
 .column-holder {
-    width: calc(100% - 85px);
+    width: calc(100%);
     height:100% !important; //<< packery does weird things with the height that i don't understand, so force the height
 
     .grid-sizer {
